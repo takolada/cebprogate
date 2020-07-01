@@ -1,103 +1,111 @@
-body {
-    background-color: #7fa998;
-    background-size: cover;
-    padding-bottom: 30px;
-}
-
-.container {
-    background-color: #f1f1b0;
-    border-radius: 5px;
-    width: 90vw;
-    margin: 10vh auto;
+.events-wrapper h5 {
+    padding-top: 40px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 8px;
+    position: relative;
     text-align: center;
-    padding-bottom: 15px;
+    text-indent: 8px;
+    font-family: "Penumbra Half Serif";
+    font-size: 2.6rem;
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
 }
 
-/* container h1 */
+.events-wrapper {
+    background-color: #091729;
+    padding: 20px auto;
+    width: 100%;
+}
 
-.content-wrapper {
+.events-container {
+    justify-content: center;
+    width: 90%;
+    margin: 20px 5%;
+    padding-bottom: 5rem;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    width: 95%;
-    justify-content: center;
 }
 
-.content-box {
-    width: 20%;
-    height: 350px;
-    border-radius: 15px;
-    box-shadow: 0 0 5px #000;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    margin: 15px 2.5%;
-}
-
-.content-box img {
-    height: 75px;
-    width: 75px;
-    margin: 30px auto;
-}
-
-.content-box h3, .content-box p {
-    font-family: 'Playfair Display', serif;
-}
-
-.floating {
-    position: fixed;
-    box-shadow: 0 0 5px #000;
-}
-
-.ig img {
-    width: 30px;
-    height: 30px;
+.events-container a {
+    text-decoration: none;
     margin: 15px 15px;
 }
 
-.ig .ig-right, .ig .ig-nav {
-    display: none;
-}
-
-.album {
-    box-shadow: 10px solid #df8543;
-    position: inherit;
-    width: 50%;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #fff;
-    text-align: center;
-    bottom: 15px;
-    left: 25%;
-    z-index: 10;
-    border: 2px solid #df8543;
-}
-
-.album a {
+.event-box {
+    border: 1px solid #85784a;
     display: block;
-    margin: 10px auto;
-    color: #df8543;
-    font-size: 25px;
-    font-style: normal;
-    font-family: 'Yellowtail', cursive;
-    text-decoration: none;
+    float: left;
+    box-shadow: 0 0 10px #000;
 }
 
-.ig {
-    box-shadow: inherit;
+.long {
+    width: 500px;
+}
+
+.short {
+    width: 235px;
+}
+
+.event-image {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.long .img {
+    width: 100%;
+    height: 20rem;
+}
+
+.event-name {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    display: block;
+    background-color: #050d1a;
+    border-top: 1px solid #85784a;
+}
+
+h7 {
+    position: relative;
+    top: -25px;
+    width: 100%;
+    display: block;
+    padding-top: 1rem;
+    border-top: inherit;
+
+    font-family: "Penumbra Half Serif";
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.event-circle {
+    z-index: 10;
     position: inherit;
+    top: -30px;
+    left: 220px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     background-color: #fff;
-    bottom: 15px;
-    z-index: 10;
+    border: 1px solid #85784a;
+    text-align: center;
 }
 
-.ig-left {
-    left: 15px;
+.short .event-circle {
+    left: 85px;
 }
 
-.ig-right {
-    right: 15px;
-    display: none;
+.event-name .keris {
+    position: inherit;
+    top: 5px;
+    height: 50px;
+    width: 50px;
 }
