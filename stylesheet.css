@@ -16,6 +16,7 @@
 .events-wrapper {
     background-color: #091729;
     padding: 20px auto;
+    width: 100%;
 }
 
 .events-container {
