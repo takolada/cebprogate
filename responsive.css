@@ -1,0 +1,32 @@
+@media(max-width: 1200px){
+    .long {
+        width: 610px;
+    }
+    .short {
+        width: 285px;
+    }
+    .events-container a {
+        margin: 20px;
+    }
+    .event-circle {
+        left: 275px;
+    }
+    .short .event-circle {
+        left: 112.5;
+    }
+}
+
+@media(max-width: 640px){
+    .long {
+        width: 400px;
+    }
+    .short {
+        width: 400px;
+    }
+    .events-container a {
+        margin: 15px;
+    }
+    .event-circle, .short .event-circle {
+        left: 170px;
+    }
+}
