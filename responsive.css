@@ -1,32 +1,25 @@
-@media(max-width: 1200px){
-    .long {
-        width: 610px;
-    }
-    .short {
-        width: 285px;
-    }
-    .events-container a {
-        margin: 20px;
-    }
-    .event-circle {
-        left: 275px;
-    }
-    .short .event-circle {
-        left: 117.5px;
+@media(max-width: 1000px){
+    .content-box {
+        width: 40%;
+        height: 75vmin;
     }
 }
 
-@media(max-width: 720px){
-    .long {
-        width: 400px;
+@media(max-width: 640px){
+    .content-box {
+        width: 90%;
+        height: 80vh;
+        margin: 2vh 5%;
+        border-radius: 0;
+        box-shadow: none;
     }
-    .short {
-        width: 400px;
+    .content-wrapper {
+        width: 100%;
     }
-    .events-container a {
-        margin: 15px;
+    .album {
+        display: none;
     }
-    .event-circle, .short .event-circle {
-        left: 170px;
+    .ig .ig-nav {
+        display: block;
     }
 }
