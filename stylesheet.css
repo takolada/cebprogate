@@ -6,7 +6,7 @@
     position: relative;
     text-align: center;
     text-indent: 8px;
-    font-family: "Penumbra Half Serif";
+    font-family: "Cinzel", serif;
     font-size: 2.6rem;
     margin: 0;
     display: block;
@@ -80,7 +80,7 @@ h7 {
     padding-top: 1rem;
     border-top: inherit;
 
-    font-family: "Penumbra Half Serif";
+    font-family: "Cinzel", serif;
     font-size: 1rem;
     font-weight: 100;
     letter-spacing: 3px;
