@@ -34,6 +34,6 @@
 @media(min-width: 640px){
     .event-box:hover {
         transition: all 1s;
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
